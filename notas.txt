@@ -1,0 +1,13 @@
+O parâmetro no_gutters foi removido em uma atualização recente do Dash.
+
+Utilizem class_name='g-0' para obterem o mesmo output do vídeo.
+
+https://stackoverflow.com/questions/70795755/how-to-resolve-dash-bootstrap-no-gutter-type-error
+
+import dash_html_components as html and import dash_core_components as dcc
+
+write just
+
+from dash import Dash, html, dcc
+
+https://stackoverflow.com/questions/69314018/the-dash-html-components-package-is-deprecated-please-replace-import-dash-html
