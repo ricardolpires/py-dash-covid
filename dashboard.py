@@ -3,7 +3,8 @@ import dash
 # import dash_core_components as dcc
 # import dash_html_components as html
 
-from dash import Dash, html, dcc
+from dash import Dash, dcc, html, Input, Output
+import os
 
 from dash.dependencies import Input, Output, ClientsideFunction
 import dash_bootstrap_components as dbc
@@ -42,7 +43,8 @@ select_columns = {"casosAcumulado": "Casos Acumulados",
 
 
 # =====================================================================
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
+app = Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
+
 server = app.server
 
 fig = px.choropleth_mapbox(df_states_, locations="estado",
