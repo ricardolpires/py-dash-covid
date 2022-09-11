@@ -1,3 +1,4 @@
 # py-dashboard-covid
 
-https://dashboard.heroku.com/apps/rlp-py-dashboard-covid
+https://rlp-py-dashboard-covid.herokuapp.com/
+
