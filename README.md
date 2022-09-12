@@ -1,5 +1,6 @@
 # py-dashboard-covid
 
-Deploy
+Deploy em:
+
 https://rlp-py-dashboard-covid.herokuapp.com/
 
